@@ -1,8 +1,7 @@
 
 public void setup()
 {
-	    
-    Cow cool = new Cow("cow", "moo");   
+	/*Cow cool = new Cow("cow", "moo");   
     System.out.println(cool.getType() + " goes " + cool.getSound());  
 
 
@@ -10,9 +9,9 @@ public void setup()
     System.out.println(coolio.getType() + " goes " + coolio.getSound());
 
     Chick babe = new Chick("chick", "whistle");   
-    System.out.println(babe.getType() + " goes " + babe.getSound());  
+    System.out.println(babe.getType() + " goes " + babe.getSound()); */  
 
     Farm people = new Farm();
-    System.out.println(Farm.animalSounds());
+    people.animalSounds(); 
 }
 
